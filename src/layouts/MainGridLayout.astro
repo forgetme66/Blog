@@ -14,7 +14,6 @@ import {
 	BANNER_HEIGHT_EXTEND,
 	MAIN_PANEL_OVERLAPS_BANNER_HEIGHT,
 } from "../constants/constants";
-import { pathsEqual, url } from "../utils/url-utils";
 import Layout from "./Layout.astro";
 
 interface Props {
@@ -47,12 +46,19 @@ const showBanner = !showHero && enableBanner;
 
 // Load hero image dynamically
 let heroBannerSrc = siteConfig.hero.src;
-if (heroBannerSrc && !heroBannerSrc.startsWith("/") && !heroBannerSrc.startsWith("http")) {
-    const images = import.meta.glob<{ default: ImageMetadata }>("../**/*.{png,jpg,jpeg,gif,webp}", { eager: true });
-    const key = "../" + heroBannerSrc;
-    if (images[key]) {
-        heroBannerSrc = images[key].default.src;
-    }
+if (
+	heroBannerSrc &&
+	!heroBannerSrc.startsWith("/") &&
+	!heroBannerSrc.startsWith("http")
+) {
+	const images = import.meta.glob<{ default: ImageMetadata }>(
+		"../**/*.{png,jpg,jpeg,gif,webp}",
+		{ eager: true },
+	);
+	const key = `../${heroBannerSrc}`;
+	if (images[key]) {
+		heroBannerSrc = images[key].default.src;
+	}
 }
 
 // For Hero: Main panel should start below the hero (100vh).

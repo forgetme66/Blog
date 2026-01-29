@@ -112,11 +112,12 @@ function initStars() {
 
 function animateStars() {
 	if (!ctx || !canvas) return;
-	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	const context = ctx;
+	context.clearRect(0, 0, canvas.width, canvas.height);
 
 	stars.forEach((star) => {
 		star.update(canvas.height, canvas.width);
-		star.draw(ctx!);
+		star.draw(context);
 	});
 
 	animationFrame = requestAnimationFrame(animateStars);
