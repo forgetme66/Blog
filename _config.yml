@@ -1,0 +1,6 @@
+exclude:
+  - src/
+  - node_modules/
+  - .github/
+  - package.json
+  - pnpm-lock.yaml
