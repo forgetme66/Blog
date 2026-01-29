@@ -69,7 +69,7 @@ class Star {
 		this.x = Math.random() * w;
 		this.y = Math.random() * h;
 		this.size = Math.random() * 2 + 0.5;
-		this.speed = Math.random() * 0.5 + 0.2;
+		this.speed = Math.random() * 0.5 + 0.4;
 		this.opacity = Math.random() * 0.7 + 0.3;
 	}
 
