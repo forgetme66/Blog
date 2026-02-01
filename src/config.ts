@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
 	},
 	hero: {
 		enable: true,
-		src: "assets/images/demo-banner.png",
+		src: "assets/images/IMG_20260201_134915.jpg",
 		name: "Code + 7",
 		nameHeight: "150",
 		subtitle: "追寻彼岸的馥郁芬芳",
@@ -60,7 +60,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/retouch_2026020114161941.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "贾琪",
 	bio: "追寻彼岸的馥郁芬芳",
 	links: [
