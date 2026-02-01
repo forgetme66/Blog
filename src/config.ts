@@ -69,11 +69,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/forgetme66",
 		},
-		{ 
-			name: "Email", 
-			icon: "fa6-solid:envelope", 
-		    url: "mailto:2926267297@qq.com" 
-		}
+		{
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:2926267297@qq.com",
+		},
 	],
 };
 
