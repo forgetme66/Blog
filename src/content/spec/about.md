@@ -1,8 +1,8 @@
-<div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 28px; margin: 16px 0; background: #f9fafb; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
 # 🎉 欢迎来到我的博客!
 
 ## 😊 关于我
 我是 **Code+7**  
+
 [**重庆邮电大学**](https://www.cqupt.edu.cn/) 计算机科学与技术学院本科，任职学院院级组织。
 
 ### 📞 联系我
