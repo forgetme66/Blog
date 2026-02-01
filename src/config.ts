@@ -16,8 +16,8 @@ export const siteConfig: SiteConfig = {
 		fixed: true, // Hide the theme color picker for visitorsS
 	},
 	banner: {
-		enable: true,
-		src: "assets/images/IMG_20260201_134915.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		enable: false,
+		src: "assets/images/retouch_2026020114161941.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
 	},
 	hero: {
 		enable: true,
-		src: "assets/images/IMG_20260201_134915.jpg",
+		src: "assets/images/retouch_2026020114161941.jpg",
 		name: "Code + 7",
 		nameHeight: "150",
 		subtitle: "追寻彼岸的馥郁芬芳",
@@ -60,7 +60,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/retouch_2026020114161941.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/IMG_20260201_134915.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "贾琪",
 	bio: "追寻彼岸的馥郁芬芳",
 	links: [
