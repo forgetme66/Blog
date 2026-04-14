@@ -2,7 +2,6 @@
 title: AI驱动学习、研究与知识管理
 published: 2026-04-15
 description: 基于RAG技术的AI辅助知识管理系统研究
-image: ./cover.png
 tags: [校园, 科研训练计划, 项目]
 category: 项目
 draft: false
